@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Weather Extension</title>
+    <link rel="stylesheet" href="style.css">
+ </head>   
+<body>
+    <div class="container">
+        <form>
+            <input class="enter" type="text" placeholder="Enter city name" title="Enter city name">
+            <button class="submit" type="submit">search</button>
+        </form>
+        <div class="img-container" style="display: none;">
+            <div class="temp" id="temp">
+                <p></p>
+                <p class="celsius">C°</p>
+            </div>
+            <img src="img/sunny.png"></img>
+        </div>
+        <div class="info" style="display: none;">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
